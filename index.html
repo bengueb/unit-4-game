@@ -6,13 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Game</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <llink rel="stylesheet" href="assets/css/styles.css" media="screen">
 </head>
 <body>
-    <div id="title">Crystal Game</div>
+    <div id="title">Crystal Collector</div>
     <div id="directions">Directions!</div>
+        <li>You will be given a random number at the beginning of the game.</li>
+        <li>Below are four crystals and by clicking each crystal you will add a specific amount of points to your total score.
+        </li>
+        <li>You can win the game by matching your total score to the random number given to you at the beginning of the game. If you go over the random number you lose.
+        </li>
+        <li>Each crystal's value is hidden to you until you click on it, however the value of each crystal will change each time the game restarts.</li>
+        <li>Goodluck and have fun!</li>
     <div id="goalScore">Goal Score</div>
+        <div id="wins">Wins</div>
+        <div id="losses">Losses</div>
     <div id="yourScore">Your Score</div>
-    <div id="gems"></div>
-    
+    <div id="gems">
+        <img src="assets/images/amber.jpg" class=gemImage id="one" alt="Amber Gem" style="width:500px;height:300px;">
+       
+        <img src="assets/images/aquamarine.jpg" class=gemImage id="two" alt="Aquamarine Gem" style="width:500px;height:300px;">
+        
+        <img src="assets/images/emerald.jpg" class=gemImage id="three" alt="Emerald Gem" style="width:500px;height:300px;">
+       
+        <img src="assets/images/ruby.jpg" class=gemImage id="four" alt="Ruby Gem" style="width:500px;height:300px;">
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+                
 </body>
 </html>
