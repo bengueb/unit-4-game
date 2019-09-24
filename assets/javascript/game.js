@@ -27,26 +27,26 @@ $( document ).ready(function(){
         userTotal= 0;
         $('#yourScore').text(userTotal);
         } 
-  //adds the wins to the userTotal
+ 
   function winner(){
   alert("You won!");
     wins++; 
     $('#numberWins').text(wins);
     reset();
   }
-  //addes the losses to the userTotal
+
   function loser(){
   alert ("Better luck next time!");
     losses++;
     $('#numberLosses').text(losses);
     reset()
   }
-  //sets up click for jewels
+
     $('#one').on ('click', function(){
       userTotal = userTotal + num1;
       console.log("yourScore= " + userTotal);
       $('#yourScore').text(userTotal); 
-            //sets win/lose conditions
+  
           if (userTotal == Random){
             winner();
           }
@@ -69,7 +69,7 @@ $( document ).ready(function(){
       userTotal = userTotal + num3;
       console.log("yourScore= " + userTotal);
       $('#yourScore').text(userTotal);
-  //sets win/lose conditions
+ 
             if (userTotal == Random){
             winner();
           }

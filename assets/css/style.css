@@ -1,21 +1,23 @@
-#title {
- padding-block: 50px,
- float:center  
-}
-
-#goalscore{
-
-}
-
-#yourScore {
-
-}
-
-#gems{
-
-}
 body{
-    background: #a5d6ff
+	background-image: url("../images/background.jpg");
+}
+div{
+	background-color: rgb(192, 235, 238);
+	margin: 10px;
+	width: 25%;
+}
+//div{
+	border: solid 2px rgb(127, 173, 167);
+	padding: 10px;
 }
 
+#title{
+	font-weight: bold;
+	text-align: center;
+}
 
+}
+
+#directions{
+	list-style: decimal inside; 
+}
